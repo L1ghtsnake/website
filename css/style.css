@@ -1647,10 +1647,19 @@ h1{
     text-align: center;
     padding-top: 60px;
 }
-
-/* =========================================
-   АДАПТИВ
-   ========================================= */
+.advantage_section > h2,
+.abonements_section > h2,
+.contacts_section > h2,
+.schedule_section > h2,
+.directions_section > h2,
+.coaches_section > h2{
+    font-size: clamp(80px, 12vw, 200px);
+    white-space: nowrap !important;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
 @media screen and (max-width: 480px) {
     body{
         font-size: 14px;
