@@ -398,6 +398,7 @@ h1{
     opacity: 30%;
     text-align: center;
     padding-top: 60px;
+    white-space: nowrap;
 }
 .advantage_section_top_text p{
     font-size: 36px;
@@ -583,6 +584,7 @@ h1{
     opacity: 30%;
     text-align: center;
     padding-top: 60px;
+    white-space: nowrap; 
 }
 .abonements_section{
     width: 100%;
@@ -752,8 +754,6 @@ h1{
     width: 94.4px;
     height: 60px;
 }
-
-/* --- ИСПРАВЛЁННЫЙ БЛОК КОНТАКТОВ --- */
 .contacts_section{
     width: 100%;
     background-color: #1D1C21;
@@ -768,6 +768,7 @@ h1{
     font-weight: 400;
     opacity: 30%;
     text-align: center;
+    white-space: nowrap;
 }
 .contacts_section_top_text p{
     font-size: 36px;
@@ -1058,6 +1059,7 @@ h1{
     font-weight: 400;
     opacity: 30%;
     text-align: center;
+    white-space: nowrap; 
 }
 .directions_section_top_text{
     position: absolute;
@@ -1247,6 +1249,7 @@ h1{
     font-weight: 400;
     opacity: 30%;
     text-align: center;
+    white-space: nowrap; 
 }
 .schedule_section_top_text p{
     font-size: 36px;
@@ -1334,6 +1337,7 @@ h1{
     font-weight: 400;
     opacity: 30%;
     text-align: center;
+    white-space: nowrap; 
 }
 .coaches_navigation a{
     text-decoration: none;
