@@ -1,5 +1,4 @@
 html { 
-    line-height: 1.15;
     -webkit-text-size-adjust: 100%;
 }
 body {
@@ -23,7 +22,6 @@ ol {
 img {
     border-style: none;
     max-width: 100%;
-    display: block;
 }
 button,
 input,
