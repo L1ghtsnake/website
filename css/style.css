@@ -3290,31 +3290,43 @@ h1{
 }
 }
 @media (max-width: 1440px) and (min-width: 1025px) {
-    .container{
-        max-width: 1440px;
-        padding: 0 40px;
+
+    /* контейнер теперь на всю ширину, без max-width */
+    .container {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+        box-sizing: border-box !important;
     }
-    .header_top_part{
+    .header_top_part {
         justify-content: space-between;
         padding: 0 40px;
     }
-    .logo{
+
+    .logo {
         margin-left: 0;
     }
-    .header_options{
+
+    .header_options {
         margin-left: 0;
         gap: 20px;
     }
-    .hamburger_menu{
+
+    .hamburger_menu {
         margin-left: 0;
     }
-    .header_nav{
+
+    .header_nav {
         width: 100%;
     }
-    .header_bottom_part{
+
+    .header_bottom_part {
         margin-left: 40px;
     }
-    .header_gallery{
+
+    .header_gallery {
         margin-left: 40px;
         margin-right: 40px;
         margin-top: 40px;
@@ -3322,127 +3334,156 @@ h1{
         justify-content: center;
         gap: 20px;
     }
-    .header_decoration{
+
+    .header_decoration {
         right: 40px;
         top: 140px;
         width: 600px;
         height: 600px;
     }
-    .header_decoration img{
+
+    .header_decoration img {
         width: 100%;
         height: 100%;
     }
-    .advantage_section_top_text{
+
+    .advantage_section_top_text {
         left: 50%;
         transform: translateX(-50%);
         text-align: center;
     }
-    .advantage_gallery{
+
+    .advantage_gallery {
         width: 100%;
         justify-content: center;
     }
-    .adventage_flex{
+
+    .adventage_flex {
         margin-top: 40px;
     }
-    .free_training{
+
+    .free_training {
         width: calc(100% - 80px);
         max-width: 1110px;
         margin: 0 auto;
     }
-    .abonements_section_top_text{
+
+    .abonements_section_top_text {
         left: 50%;
         transform: translateX(-50%);
         text-align: center;
     }
-    .abonements{
+
+    .abonements {
         margin-top: 250px;
         flex-wrap: wrap;
         justify-content: center;
         gap: 30px;
     }
+
     .abonement_morning,
     .abonement_day,
     .abonement_full_day,
-    .abonement_weekend{
+    .abonement_weekend {
         position: relative;
     }
-    .contacts_section_top_text{
+
+    .contacts_section_top_text {
         left: 50%;
         transform: translateX(-50%);
         text-align: center;
     }
-    .contacts_section_content{
+
+    .contacts_section_content {
         max-width: 1110px;
     }
-    .direction_navigation{
+
+    .direction_navigation {
         margin-left: 40px;
     }
-    .directions_section_top_text{
+
+    .directions_section_top_text {
         left: 50%;
         transform: translateX(-50%);
         text-align: center;
     }
-    .trainings{
+
+    .trainings {
         margin-top: 60px;
     }
+
     .poledance_image,
     .stretching_image,
-    .bodypump_image{
+    .bodypump_image {
         margin-left: 160px;
     }
+
     .yoga_image,
-    .supernuts_image{
+    .supernuts_image {
         margin-right: 160px;
     }
-    .disc_training_content{
+
+    .disc_training_content {
         margin-left: 40px;
     }
-    .free_training2{
+
+    .free_training2 {
         margin-left: auto;
         margin-right: auto;
     }
-    .schedule_navigation{
+
+    .schedule_navigation {
         margin-left: 40px;
     }
-    .schedule_section_top_text{
+
+    .schedule_section_top_text {
         left: 50%;
         transform: translateX(-50%);
         text-align: center;
     }
-    .schedule_date{
+
+    .schedule_date {
         margin-left: auto;
         margin-right: auto;
     }
-    .schedule_time_training{
+
+    .schedule_time_training {
         margin-left: auto;
         margin-right: auto;
     }
-    .coaches_navigation{
+
+    .coaches_navigation {
         margin-left: 40px;
     }
-    .coaches_section_top_text{
+
+    .coaches_section_top_text {
         left: 50%;
         transform: translateX(-50%);
         text-align: center;
     }
-    .coaches{
+
+    .coaches {
         margin-left: auto;
         margin-right: auto;
         max-width: 1110px;
     }
-    .coaches_section::after{
+
+    .coaches_section::after {
         left: 50%;
         transform: translateX(-50%);
     }
-    .footer_card{
+
+    .footer_card {
         left: 50%;
         transform: translateX(-50%);
     }
-    .footer_mid_part{
+
+    .footer_mid_part {
         gap: 120px;
         padding-left: 40px;
     }
-    .footer_bottom_part{
+
+    .footer_bottom_part {
         gap: 120px;
         padding-left: 40px;
     }
