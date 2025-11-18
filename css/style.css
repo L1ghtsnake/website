@@ -3290,29 +3290,22 @@ h1{
 }
 }
 @media (min-width: 1025px) and (max-width: 1440px) {
-
-    /* Общий фон страницы (чтобы нигде не просвечивал белый) */
     html,
     body {
         margin: 0;
         padding: 0;
-        background: #1D1C21; /* тот же цвет, что фон сайта */
+        background: #1D1C21; 
     }
-
-    /* Главный контейнер: растягиваем и убираем белый фон */
     header > .container,
     main  > .container,
     footer > .container {
         width: 100%;
         max-width: 100%;
         margin: 0;
-        padding: 0 40px;          /* оставляем твои внутренние отступы */
+        padding: 0 40px;        
         box-sizing: border-box;
-        background: transparent;  /* КЛЮЧЕВОЕ — не даём белый фон по краям */
+        background: transparent;  
     }
-
-    /* На всякий случай убираем max-width и центрирование у крупных секций,
-       чтобы они не сжимались внутри белого "короба" */
     .header,
     .header_direction,
     .advantage_section,
@@ -3326,18 +3319,19 @@ h1{
         max-width: 100%;
         margin: 0;
     }
-
-    /* ниже можешь оставить/вернуть свой прежний адаптив — он отвечает только за отступы/позиционирование */
-
+    .advantage_section h2,
+    .coaches_section h2{
+        font-size: 150px;
+    }
     .header_top_part{
-        justify-content: space-between;
-        padding: 0 40px;
+        gap: 40px;
+        padding: 0;
     }
     .logo{
         margin-left: 0;
     }
     .header_options{
-        margin-left: 0;
+        margin-left: 700px;
         gap: 20px;
     }
     .hamburger_menu{
@@ -3347,21 +3341,22 @@ h1{
         width: 100%;
     }
     .header_bottom_part{
-        margin-left: 40px;
+        margin-left: 0;
     }
     .header_gallery{
-        margin-left: 40px;
-        margin-right: 40px;
-        margin-top: 40px;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
+        flex-direction: column;
+        margin-top: -700px;
+        margin-left: 1000px;
+        z-index: 1;
+    }
+    .social_icon_two{
+        padding: 9px;
     }
     .header_decoration{
         right: 40px;
         top: 140px;
-        width: 600px;
-        height: 600px;
+        width: 500px;
+        height: 500px;
     }
     .header_decoration img{
         width: 100%;
@@ -3382,7 +3377,7 @@ h1{
     .free_training{
         width: calc(100% - 80px);
         max-width: 1110px;
-        margin: 0 auto;
+        margin-top: 100px;
     }
     .abonements_section_top_text{
         left: 50%;
@@ -3390,8 +3385,7 @@ h1{
         text-align: center;
     }
     .abonements{
-        margin-top: 250px;
-        flex-wrap: wrap;
+        margin-top: 60px;
         justify-content: center;
         gap: 30px;
     }
@@ -3406,9 +3400,14 @@ h1{
         transform: translateX(-50%);
         text-align: center;
     }
+    .abonement_cost{
+        padding: 10px 27px;
+    }
     .contacts_section_content{
         max-width: 1110px;
-        margin: 0 auto;
+    }
+   .schedule_section{
+        height: auto;
     }
     .direction_navigation{
         margin-left: 40px;
@@ -3424,11 +3423,11 @@ h1{
     .poledance_image,
     .stretching_image,
     .bodypump_image{
-        margin-left: 160px;
+        margin-left: 80px;
     }
     .yoga_image,
     .supernuts_image{
-        margin-right: 160px;
+        margin-right: 80px;
     }
     .disc_training_content{
         margin-left: 40px;
@@ -3476,10 +3475,10 @@ h1{
     }
     .footer_mid_part{
         gap: 120px;
-        padding-left: 40px;
+        padding-left: 0;
     }
     .footer_bottom_part{
         gap: 120px;
-        padding-left: 40px;
+        padding-left: 0;
     }
 }
