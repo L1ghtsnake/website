@@ -29,7 +29,7 @@ img{
 .header{
     width: 100%;
     height: 1100px;
-    background: radial-gradient( #1D1C21D9, #1D1C21 70% ), url("../img/headerlogo.png");
+    background: radial-gradient( #1D1C21D9, #1D1C21 70% ), url("../img/headerbanner.webp");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -343,7 +343,7 @@ h1{
     margin-top: -184px;
 }
 .galleryone{
-    background: url("../img/galleryone.svg");
+    background: url("../img/galleryone.webp");
     width: 378px;
     height: 218px;
     text-align: center;
@@ -354,7 +354,7 @@ h1{
     border-top: 5px #C80A2C solid;
 }
 .gallerytwo{
-    background: url("../img/gallerytwo.svg");
+    background: url("../img/gallerytwo.webp");
     width: 378px;
     height: 218px;
     text-align: left;
@@ -365,7 +365,7 @@ h1{
     border-top: 5px #C80A2C solid;
 }
 .gallerythree{
-    background: url("../img/gallerythree.svg");
+    background: url("../img/gallerythree.webp");
     width: 378px;
     height: 218px;
     text-align: left;
@@ -383,7 +383,7 @@ h1{
     height: 720px;
 }
 .advantage_section{
-    background: linear-gradient(#1D1C21 55%, #1D1C21D9), url("../img/sectiononebackground.jpg");
+    background: linear-gradient(#1D1C21 55%, #1D1C21D9), url("../img/advantagesectionbackground.webp");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -417,7 +417,9 @@ h1{
     top: 95px;
 }
 .advantage_card1{
-    background: url("../img/advantagescardone.jpg");
+    background: url("../img/advantagescardone.webp");
+    background-size: cover;
+    background-position: center;
     width: 350px;
     height: 202px;
     transition: .25s;
@@ -427,31 +429,41 @@ h1{
     box-shadow: 0 6px 18px #C80A2C;
 }
 .advantage_card2{
-    background: url("../img/advantagescardtwo.jpg");
+    background: url("../img/advantagescardtwo.webp");
+    background-size: cover;
+    background-position: center;
     width: 350px;
     height: 202px;
     transition: .25s;
 }
 .advantage_card3{
-    background: url("../img/advantagescardthree.jpg");
+    background: url("../img/advantagescardthree.webp");
+    background-size: cover;
+    background-position: center;
     width: 350px;
     height: 202px;
     transition: .25s;
 }
 .advantage_card4{
-    background: url("../img/advantagescardfour.jpg");
+    background: url("../img/advantagescardfour.webp");
+    background-size: cover;
+    background-position: center;
     width: 350px;
     height: 202px;
     transition: .25s;
 }
 .advantage_card5{
-    background: url("../img/advantagescardfive.jpg");
+    background: url("../img/advantagescardfive.webp");
+    background-size: cover;
+    background-position: center;
     width: 350px;
     height: 202px;
     transition: .25s;
 }
 .advantage_card6{
-    background: url("../img/advantagescardsix.jpg");
+    background: url("../img/advantagescardsix.webp");
+    background-size: cover;
+    background-position: center;
     width: 350px;
     height: 202px;
     transition: .25s;
@@ -589,7 +601,7 @@ h1{
 .abonements_section{
     width: 100%;
     height: 953px;
-    background: linear-gradient(#1D1C21 35%, #1D1C21D9), url("../img/abonementsbgnd.jpg");
+    background: linear-gradient(#1D1C21 35%, #1D1C21D9), url("../img/abonementsbgnd.webp");
     background-size: cover;
     position: relative;
 }
@@ -821,7 +833,7 @@ h1{
 .footer_top_part{
     width: 100%;
     height: 430px;
-    background: url("../img/footermap.jpg");
+    background: url("../img/footermap.webp");
     background-position: center;
     background-size: cover;
     margin-left: -1px;
@@ -1368,7 +1380,7 @@ h1{
     top: 140px;
 }
 .coach_card1{
-    background: linear-gradient(#C80A2C00, #C80A2C4D 90%, #C80A2C80 100%), url("../img/coach1.jpg");
+    background: linear-gradient(#C80A2C00, #C80A2C4D 90%, #C80A2C80 100%), url("../img/coach1.webp");
     background-position: center;
     background-size: cover;
     width: 255px;
@@ -1434,7 +1446,7 @@ h1{
     top: 59px;
 }
 .coach_card2{
-    background: linear-gradient(#C80A2C00, #C80A2C4D 90%, #C80A2C80 100%), url("../img/coach2.jpg");
+    background: linear-gradient(#C80A2C00, #C80A2C4D 90%, #C80A2C80 100%), url("../img/coach2.webp");
     background-position: center;
     background-size: cover;
     width: 255px;
@@ -1464,7 +1476,7 @@ h1{
     padding: 5px 32px;
 }
 .coach_card3{
-    background: linear-gradient(#C80A2C00, #C80A2C4D 90%, #C80A2C80 100%), url("../img/coach3.jpg");
+    background: linear-gradient(#C80A2C00, #C80A2C4D 90%, #C80A2C80 100%), url("../img/coach3.webp");
     background-position: center;
     background-size: cover;
     width: 255px;
@@ -1473,7 +1485,7 @@ h1{
     transition: .25s;
 }
 .coach_card4{
-    background: linear-gradient(#C80A2C00, #C80A2C4D 90%, #C80A2C80 100%), url("../img/coach4.jpg");
+    background: linear-gradient(#C80A2C00, #C80A2C4D 90%, #C80A2C80 100%), url("../img/coach4.webp");
     background-position: center;
     background-size: cover;
     width: 255px;
@@ -1482,7 +1494,7 @@ h1{
     transition: .25s;
 }
 .coach_card5{
-    background: linear-gradient(#C80A2C00, #C80A2C4D 90%, #C80A2C80 100%), url("../img/coach5.jpg");
+    background: linear-gradient(#C80A2C00, #C80A2C4D 90%, #C80A2C80 100%), url("../img/coach5.webp");
     background-position: center;
     background-size: cover;
     width: 255px;
@@ -1491,7 +1503,7 @@ h1{
     transition: .25s;
 }
 .coach_card6{
-    background: linear-gradient(#C80A2C00, #C80A2C4D 90%, #C80A2C80 100%), url("../img/coach6.jpg");
+    background: linear-gradient(#C80A2C00, #C80A2C4D 90%, #C80A2C80 100%), url("../img/coach6.webp");
     background-position: center;
     background-size: cover;
     width: 255px;
@@ -1500,7 +1512,7 @@ h1{
     transition: .25s;
 }
 .coach_card7{
-    background: linear-gradient(#C80A2C00, #C80A2C4D 90%, #C80A2C80 100%), url("../img/coach7.jpg");
+    background: linear-gradient(#C80A2C00, #C80A2C4D 90%, #C80A2C80 100%), url("../img/coach7.webp");
     background-position: center;
     background-size: cover;
     width: 255px;
@@ -1509,7 +1521,7 @@ h1{
     transition: .25s;
 }
 .coach_card8{
-    background: linear-gradient(#C80A2C00, #C80A2C4D 90%, #C80A2C80 100%), url("../img/coach8.jpg");
+    background: linear-gradient(#C80A2C00, #C80A2C4D 90%, #C80A2C80 100%), url("../img/coach8.webp");
     background-position: center;
     background-size: cover;
     width: 255px;
@@ -1518,7 +1530,7 @@ h1{
     transition: .25s;
 }
 .coach_card9{
-    background: linear-gradient(#C80A2C00, #C80A2C4D 90%, #C80A2C80 100%), url("../img/coach9.jpg");
+    background: linear-gradient(#C80A2C00, #C80A2C4D 90%, #C80A2C80 100%), url("../img/coach9.webp");
     background-position: center;
     background-size: cover;
     width: 255px;
@@ -1527,7 +1539,7 @@ h1{
     transition: .25s;
 }
 .coach_card10{
-    background: linear-gradient(#C80A2C00, #C80A2C4D 90%, #C80A2C80 100%), url("../img/coach10.jpg");
+    background: linear-gradient(#C80A2C00, #C80A2C4D 90%, #C80A2C80 100%), url("../img/coach10.webp");
     background-position: center;
     background-size: cover;
     width: 255px;
@@ -1536,7 +1548,7 @@ h1{
     transition: .25s;
 }
 .coach_card11{
-    background: linear-gradient(#C80A2C00, #C80A2C4D 90%, #C80A2C80 100%), url("../img/coach11.jpg");
+    background: linear-gradient(#C80A2C00, #C80A2C4D 90%, #C80A2C80 100%), url("../img/coach11.webp");
     background-position: center;
     background-size: cover;
     width: 255px;
@@ -1545,7 +1557,7 @@ h1{
     transition: .25s;
 }
 .coach_card12{
-    background: linear-gradient(#C80A2C00, #C80A2C4D 90%, #C80A2C80 100%), url("../img/coach12.jpg");
+    background: linear-gradient(#C80A2C00, #C80A2C4D 90%, #C80A2C80 100%), url("../img/coach12.webp");
     background-position: center;
     background-size: cover;
     width: 255px;
@@ -1633,7 +1645,7 @@ h1{
     background-color: #C80A2C;
 }
 .modal_feedback{
-    background: url("../img/modalbgnd.jpg");
+    background: url("../img/modalbgnd.webp");
     background-size: cover;
     background-position: center;
     width: 350px;
@@ -2114,7 +2126,7 @@ h1{
     .coaches{
         margin-left: 0;
         width: 100%;
-        justify-content:	center;
+        justify-content: center;
         padding: 0 20px;
     }
     .coach_card1,
@@ -2669,6 +2681,10 @@ h1{
     .coaches_section::after{
         left: 20px;
         width: calc(100% - 40px);
+    }
+    .card_decoration::after{
+        left: 29px;
+        width: calc(100% - 60px);
     }
 }
 @media screen and (max-width: 1024px) and (min-width: 769px) {
@@ -3280,6 +3296,10 @@ h1{
     .coaches_section::after{
         left: 24px;
         width: calc(100% - 48px);
+    }
+    .card_decoration::after{
+        left: 15px;
+        width: calc(100% - 30px);
     }
     .social_icon_two{
     width: 40px;
