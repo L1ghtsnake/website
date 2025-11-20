@@ -34,6 +34,26 @@ img{
     background-position: center;
     position: relative;
 }
+.header_navigation{
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    gap: 20px;
+    font-size: 20px;
+    color: #F9F9FB;
+    align-items: center;
+    margin-left: 100px;
+    font-family: 'Circe';
+}
+.header_navigation a{
+    transition: 0.2s;
+}
+.header_navigation a:hover{
+    color: #C80A38;
+}
+.header_navigation a:active{
+    color: #AC001F;
+}
 .header_logo{
     color: #C80A2C;
 }
@@ -63,7 +83,7 @@ img{
     flex-direction: row;
     align-items: center;
     gap: 30px;
-    margin-left: 1077px;
+    margin-left: 550px;
 }
 .header_top_part{
     position: relative;
@@ -74,6 +94,9 @@ img{
     height: 93px;
     width: 100%;
     border-bottom: 1px #FFFFFF33 solid;
+}
+.hamburger_menu{
+    display: none;
 }
 .header_nav a{
     text-decoration: none;
@@ -295,7 +318,7 @@ h1{
     width: 40px;
     height: 40px;
     border: 1px #FFFFFF33 solid;
-    padding: 10px 10px;
+    padding: 9px 10px;
     transition: 0.5s;
 }
 .social_icon_three{
@@ -1687,6 +1710,12 @@ h1{
         max-width: 480px;
         padding: 0;
     }
+    .hamburger_menu{
+        display: block;
+    }
+    .header_navigation{
+        display: none;
+    }
     h1{
         font-size: 30px;
         line-height: 1.2;
@@ -2162,6 +2191,12 @@ h1{
         margin: 0 auto;
         max-width: 768px;
         padding: 0 20px;
+    }
+    .hamburger_menu{
+        display: block;
+    }
+    .header_navigation{
+        display: none;
     }
     h1{
         font-size: 40px;
@@ -2704,6 +2739,12 @@ h1{
     h1{
         font-size: 52px;
         line-height: 1.15;
+    }
+    .hamburger_menu{
+        display: block;
+    }
+    .header_navigation{
+        display: none;
     }
     .advantage_section > h2,
     .abonements_section > h2,
@@ -3350,8 +3391,17 @@ h1{
     .logo{
         margin-left: 0;
     }
+    .header_navigation a{
+        transition: 0.2s;
+    }
+    .header_navigation a:hover{
+        color: #C80A38;
+    }
+    .header_navigation a:active{
+        color: #AC001F;
+    }
     .header_options{
-        margin-left: 700px;
+        margin-left: 170px;
         gap: 20px;
     }
     .hamburger_menu{
